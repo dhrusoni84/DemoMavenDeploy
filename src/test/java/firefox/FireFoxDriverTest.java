@@ -1,11 +1,11 @@
-package login;
+package firefox;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class LoginTestCase {
+public class FireFoxDriverTest {
 	public static void main(String[] args) {
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 	}
